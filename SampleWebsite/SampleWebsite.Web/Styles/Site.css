@@ -27,7 +27,7 @@
 
 .boxBorder {
     border:2px solid #eb6904; /* no info for size nor color yet */
-    box-shadow: 0 0 0 4px #fc8d37;
+    box-shadow: 0 0 0 3px #fc8d37;
     border-radius:2px; /* prefix not needed anymore */
 }
 
