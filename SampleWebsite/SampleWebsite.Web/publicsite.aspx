@@ -21,7 +21,7 @@
             <div id="divHeader">
                 <div id="divHeaderTop">
                     <a href="login.aspx">Login</a>
-                    <input id="Button1" type="button" runat="server" onserverclick="SignOut" value="Logout" class="btn btn-default" />
+                    <input id="btnSignOut" type="button" runat="server" onserverclick="SignOut" value="Logout" class="btn btn-default" />
                     <a href="#" style="display: none;">Register</a>
                 </div>
                 <div id="divHeaderBottom"></div>
