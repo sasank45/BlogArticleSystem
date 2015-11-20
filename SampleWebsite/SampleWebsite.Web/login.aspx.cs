@@ -27,7 +27,7 @@ namespace SampleWebsite.Web
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            this.UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None;
         }
 
         #endregion
@@ -47,8 +47,12 @@ namespace SampleWebsite.Web
 
                 if (userInfo != null && userInfo.Id > 0)
                 {
-                    // 4. Do the redirect. 
+                    // 4. Do the redirect.
                     FormsAuthentication.RedirectFromLoginPage(userInfo.Id.ToString(), false);
+                }
+                else
+                {
+                    lblError.Visible = true;
                 }
             }
             catch (Exception ex)

@@ -23,11 +23,6 @@
             <div id="divBody">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-12">
-                            <asp:Label ID="lblError" runat="server" color="red"></asp:Label>
-                        </div>
-                    </div>
-                    <div class="row">
                         <div class="col-xs-12 col-sm-3 col-md-4">
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4">
@@ -36,13 +31,22 @@
                                     <div class="col-xs-12">
                                         <h4><b>User Login:</b></h4>
                                     </div>
+                                    <div class="col-xs-12">
+                                        <asp:Label ID="lblError" runat="server" color="red" Visible="false" ForeColor="Red">Invalid Username or Password</asp:Label>
+                                    </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-xs-12 col-sm-3">
                                         <label for="txtUsername">Username</label>
                                     </div>
                                     <div class="col-xs-12 col-sm-9">
-                                        <input type="text" class="form-control" id="txtUsername" runat="server" />
+                                        <input type="text" id="txtUsername" class="form-control" runat="server" />
+                                        <asp:RequiredFieldValidator ID="rfvUsername" runat="server"
+                                            ControlToValidate="txtUsername"
+                                            ErrorMessage="Username is a required field."
+                                            ValidationGroup="vgLogin"
+                                            ForeColor="Red">
+                                        </asp:RequiredFieldValidator>
                                     </div>
                                 </div>
                                 <div class="row form-group">
@@ -51,11 +55,16 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-9">
                                         <input type="password" class="form-control" id="txtPassword" runat="server" />
+                                        <asp:RequiredFieldValidator ID="rfvPassword" runat="server"
+                                            ControlToValidate="txtPassword"
+                                            ErrorMessage="Password is a required field."
+                                            ValidationGroup="vgLogin"
+                                            ForeColor="Red"></asp:RequiredFieldValidator>
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-xs-12" style="text-align: right;">
-                                        <asp:Button ID="btnLogin" runat="server" OnClick="Login_Click" Text="Login" class="btn btn-default" />
+                                        <asp:Button ID="btnLogin" runat="server" OnClick="Login_Click" Text="Login" Class="btn btn-default" ValidationGroup="vgLogin" />
                                     </div>
                                 </div>
                             </div>
