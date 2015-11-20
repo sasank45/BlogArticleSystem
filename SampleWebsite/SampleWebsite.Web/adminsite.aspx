@@ -13,7 +13,7 @@
 
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="Styles/AdminSite.css" rel="stylesheet" />
+    <link href="Styles/Site.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">

@@ -7,13 +7,15 @@
     <title></title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="Styles/PublicSite.css" rel="stylesheet" />
+    <link href="Styles/Site.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="divMain">
             <div id="divHeader">
-                <div id="divHeaderTop"><a href="#" data-ng-click="showLogin()">Login</a></div>
+                <div id="divHeaderTop">
+                    <a href="#">Register</a>
+                </div>
                 <div id="divHeaderBottom"></div>
             </div>
             <div id="divMenu">
@@ -26,28 +28,28 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-2 col-md-3">
+                        <div class="col-xs-12 col-sm-3 col-md-4">
                         </div>
-                        <div class="col-xs-12 col-sm-8 col-md-6 boxBorder">
-                            <div class="container-fluid">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="container-fluid boxBorder" id="divLogin">
                                 <div class="row form-group">
                                     <div class="col-xs-12">
                                         <h4><b>User Login:</b></h4>
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+                                    <div class="col-xs-12 col-sm-3">
                                         <label for="txtUsername">Username</label>
                                     </div>
-                                    <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
+                                    <div class="col-xs-12 col-sm-9">
                                         <input type="text" class="form-control" id="txtUsername" runat="server" />
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+                                    <div class="col-xs-12 col-sm-3">
                                         <label for="txtPassword">Password</label>
                                     </div>
-                                    <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
+                                    <div class="col-xs-12 col-sm-9">
                                         <input type="password" class="form-control" id="txtPassword" runat="server" />
                                     </div>
                                 </div>
@@ -60,7 +62,7 @@
                             <div class="form-group" style="text-align: right;">
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-2 col-md-3">
+                        <div class="col-xs-12 col-sm-3 col-md-4">
                         </div>
                     </div>
                 </div>

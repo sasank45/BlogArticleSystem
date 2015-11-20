@@ -106,8 +106,7 @@
     <Content Include="Scripts\jquery-1.11.3.min.js" />
     <Content Include="Scripts\PublicSite.js" />
     <Content Include="Services\ProductService.svc" />
-    <Content Include="Styles\AdminSite.css" />
-    <Content Include="Styles\PublicSite.css" />
+    <Content Include="Styles\Site.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
