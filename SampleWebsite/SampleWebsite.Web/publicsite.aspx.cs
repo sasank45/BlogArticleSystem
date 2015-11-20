@@ -15,16 +15,5 @@ namespace SampleWebsite.Web
         {
 
         }
-
-        /// <summary>
-        /// Signs the out.
-        /// </summary>
-        /// <param name="sender">The sender.</param>
-        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
-        protected void SignOut(object sender, EventArgs e)
-        {
-            FormsAuthentication.SignOut();
-            FormsAuthentication.RedirectToLoginPage();
-        }
     }
 }
