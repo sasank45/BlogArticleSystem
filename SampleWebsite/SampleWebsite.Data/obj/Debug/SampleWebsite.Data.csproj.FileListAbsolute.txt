@@ -28,3 +28,13 @@ E:\Projects\SampleWebsite2\SampleWebsite\SampleWebsite.Data\bin\Debug\EntityFram
 E:\Projects\SampleWebsite2\SampleWebsite\SampleWebsite.Data\obj\Debug\SampleWebsite.Data.csprojResolveAssemblyReference.cache
 E:\Projects\SampleWebsite2\SampleWebsite\SampleWebsite.Data\obj\Debug\SampleWebsite.Data.dll
 E:\Projects\SampleWebsite2\SampleWebsite\SampleWebsite.Data\obj\Debug\SampleWebsite.Data.pdb
+D:\Projects\BlogArticleSystem\SampleWebsite\SampleWebsite.Data\bin\Debug\SampleWebsite.Data.dll.config
+D:\Projects\BlogArticleSystem\SampleWebsite\SampleWebsite.Data\bin\Debug\SampleWebsite.Data.dll
+D:\Projects\BlogArticleSystem\SampleWebsite\SampleWebsite.Data\bin\Debug\SampleWebsite.Data.pdb
+D:\Projects\BlogArticleSystem\SampleWebsite\SampleWebsite.Data\bin\Debug\EntityFramework.dll
+D:\Projects\BlogArticleSystem\SampleWebsite\SampleWebsite.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\BlogArticleSystem\SampleWebsite\SampleWebsite.Data\bin\Debug\EntityFramework.xml
+D:\Projects\BlogArticleSystem\SampleWebsite\SampleWebsite.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\BlogArticleSystem\SampleWebsite\SampleWebsite.Data\obj\Debug\SampleWebsite.Data.csprojResolveAssemblyReference.cache
+D:\Projects\BlogArticleSystem\SampleWebsite\SampleWebsite.Data\obj\Debug\SampleWebsite.Data.dll
+D:\Projects\BlogArticleSystem\SampleWebsite\SampleWebsite.Data\obj\Debug\SampleWebsite.Data.pdb
