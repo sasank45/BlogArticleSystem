@@ -8,6 +8,24 @@
         <EntityTypeShape EntityType="SampleModel.User" Width="1.5" PointX="3.2222312610699939" PointY="5.5458026703194729" />
         <EntityTypeShape EntityType="SampleModel.UserType" Width="1.5" PointX="4.8278766017536991" PointY="5.292164313277306" />
         <AssociationConnector Association="SampleModel.FK_User_UserType" />
+        <EntityTypeShape EntityType="SampleModel.Answer" Width="1.5" PointX="10" PointY="1.25" />
+        <EntityTypeShape EntityType="SampleModel.Article" Width="1.5" PointX="10" PointY="5.25" />
+        <EntityTypeShape EntityType="SampleModel.ArticleTechnology" Width="1.5" PointX="12.25" PointY="5.625" />
+        <EntityTypeShape EntityType="SampleModel.ArticleType" Width="1.5" PointX="7.75" PointY="9" />
+        <EntityTypeShape EntityType="SampleModel.Comment" Width="1.5" PointX="12.25" PointY="1" />
+        <EntityTypeShape EntityType="SampleModel.Question" Width="1.5" PointX="7.75" PointY="1.625" />
+        <EntityTypeShape EntityType="SampleModel.Status" Width="1.5" PointX="7.75" PointY="5.875" />
+        <EntityTypeShape EntityType="SampleModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SampleModel.Technology" Width="1.5" PointX="10" PointY="9.875" />
+        <AssociationConnector Association="SampleModel.FK_Answer_Question" />
+        <AssociationConnector Association="SampleModel.FK_Answer_Status" />
+        <AssociationConnector Association="SampleModel.FK_Comments_Answer" />
+        <AssociationConnector Association="SampleModel.FK_Article_ArticleType" />
+        <AssociationConnector Association="SampleModel.FK_Article_Status" />
+        <AssociationConnector Association="SampleModel.FK_ArticleTechnology_Article" />
+        <AssociationConnector Association="SampleModel.FK_ArticleTechnology_Technology" />
+        <AssociationConnector Association="SampleModel.FK_Comments_Comments" />
+        <AssociationConnector Association="SampleModel.FK_Comments_Question" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

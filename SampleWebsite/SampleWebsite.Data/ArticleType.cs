@@ -15,30 +15,26 @@ namespace SampleWebsite.Data
 using System;
     using System.Collections.Generic;
     
-public partial class User
+public partial class ArticleType
 {
 
-    public long Id { get; set; }
+    public ArticleType()
+    {
 
-    public string Username { get; set; }
+        this.Articles = new HashSet<Article>();
 
-    public string Password { get; set; }
+    }
 
-    public string FirstName { get; set; }
 
-    public string MiddleName { get; set; }
+    public int Id { get; set; }
 
-    public string LastName { get; set; }
+    public string Title { get; set; }
 
-    public string Phone { get; set; }
-
-    public string Email { get; set; }
-
-    public int UserTypeId { get; set; }
+    public string Description { get; set; }
 
 
 
-    public virtual UserType UserType { get; set; }
+    public virtual ICollection<Article> Articles { get; set; }
 
 }
 

@@ -15,30 +15,36 @@ namespace SampleWebsite.Data
 using System;
     using System.Collections.Generic;
     
-public partial class User
+public partial class Question
 {
+
+    public Question()
+    {
+
+        this.Answers = new HashSet<Answer>();
+
+        this.Comments = new HashSet<Comment>();
+
+    }
+
 
     public long Id { get; set; }
 
-    public string Username { get; set; }
+    public string Title { get; set; }
 
-    public string Password { get; set; }
+    public string Description { get; set; }
 
-    public string FirstName { get; set; }
+    public int Status { get; set; }
 
-    public string MiddleName { get; set; }
+    public int CreatedBy { get; set; }
 
-    public string LastName { get; set; }
-
-    public string Phone { get; set; }
-
-    public string Email { get; set; }
-
-    public int UserTypeId { get; set; }
+    public System.DateTime CreatedDate { get; set; }
 
 
 
-    public virtual UserType UserType { get; set; }
+    public virtual ICollection<Answer> Answers { get; set; }
+
+    public virtual ICollection<Comment> Comments { get; set; }
 
 }
 
